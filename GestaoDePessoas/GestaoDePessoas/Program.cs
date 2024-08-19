@@ -17,7 +17,7 @@ namespace GestaoDePessoas
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int idade, pessoas = 0;
             int A = 0, B = 0, C = 0, D = 0, E = 0;
@@ -33,6 +33,7 @@ namespace GestaoDePessoas
                 {
                     case <= 0:
                         i = 0;
+                        pessoas--;
                         break;
                     
                     case >= 1 and <= 15:
